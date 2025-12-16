@@ -4,7 +4,7 @@ import { CryptoToCash } from "./ui/components";
 
 export function HomePage() {
   return (
-    <div className="flex w-full max-w-[640px] mx-auto flex-col gap-6 py-20 px-20">
+    <div className="flex w-full max-w-[640px] mx-auto flex-col gap-6 py-12 px-4 sm:px-6 md:py-20 md:px-20">
       <Tabs defaultValue="crypto-to-cash">
         <TabsList>
           <TabsTrigger value="crypto-to-cash">Crypto to cash</TabsTrigger>

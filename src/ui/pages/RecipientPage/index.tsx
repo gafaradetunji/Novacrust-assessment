@@ -72,7 +72,7 @@ export function RecipientPage() {
         touched,
       }) => (
         <Form
-          className="flex w-full max-w-[640px] mx-auto flex-col gap-6 py-20 px-20"
+          className="flex w-full max-w-[640px] mx-auto flex-col gap-6 py-12 px-4 sm:px-6 md:py-20 md:px-20"
         >
          <TitleAndBack title="Recipient details" />
 
